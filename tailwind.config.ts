@@ -16,6 +16,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    screens: {
+      sm: { min: "330px", max: "767px" },
+      // => @media (min-width: 640px and max-width: 767px) { ... }
+
+      md: {min: "768px", max: "1367px"},
+
+      lg: { min: "1368px" },
+      // => @media (min-width: 768px and max-width: 1023px) { ... }
+    }
   },
   plugins: [nextui({
     prefix: "nextui", // prefix for themes variables
