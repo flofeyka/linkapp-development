@@ -2,6 +2,7 @@
 
 import { Button, Card } from "@nextui-org/react";
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -24,7 +25,7 @@ export default function Header() {
             {menu && (
                 <motion.div initial={{ height: 0 }} exit={{ height: 0 }} animate={{ height: "100vh" }}
                     className="menu-opened bg-[#18181B] h-screen z-[9999999] fixed top-0 w-screen left-0 flex flex-col px-7 p-5 overflow-hidden text-xl gap-2 ">
-                    <div onClick={handleClose} className="absolute top-[2vh] right-[15px]">Close</div>
+                    <div onClick={handleClose} className="absolute top-[2vh] right-[15px]"><Image src="/icons/close.svg" alt="close" height={27.5} width={27.5} /></div>
                     <div className="text-center mt-[5vh] flex flex-col text-2xl gap-5">
                         <Link onClick={handleClose} href="#cases">кейсы</Link>
                         <Link onClick={handleClose} href="#services">услуги</Link>
