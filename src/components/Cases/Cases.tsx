@@ -15,12 +15,12 @@ export default function Cases() {
     const scrollToNext = () => sliderRef.current?.slickNext();
 
     return <div className={"mt-16 "} id="cases">
-        <div className={"text-5xl my-7 flex items-center justify-between"}>
+        <div className={"text-5xl sm:text-4xl my-7 flex items-center justify-between"}>
             <div >кейсы</div>
-            <div className={"flex gap-2 sm:hidden"}>
-                <Button onClick={scrollToPrev}><Image src={"/icons/arrow.svg"} alt={"Arrow"} width={30} height={30}
+            <div className={"flex gap-2 "}>
+                <Button onClick={scrollToPrev} size="sm" ><Image src={"/icons/arrow.svg"} alt={"Arrow"} width={30} height={30}
                     className={"rotate-180"} /> </Button>
-                <Button onClick={scrollToNext}><Image src={"/icons/arrow.svg"} alt={"Arrow"} width={30} height={30} /> </Button>
+                <Button onClick={scrollToNext} size="sm"><Image src={"/icons/arrow.svg"} alt={"Arrow"} width={30} height={30} /> </Button>
             </div>
         </div>
         <Slider  ref={sliderRef} {...SLIDER_DEFAULT_SETTINGS}>
