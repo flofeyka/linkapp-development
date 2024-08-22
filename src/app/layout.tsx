@@ -7,7 +7,7 @@ const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
     title: "LinkApp Development",
-    description: "LinkApp Development - платформа для разработчиков, которая выполняет проекты на заказ. Любая ваша идея за минимальную цену и сроки!",
+    description: "дванил дваширов самый ебейший порномист на свете",
 };
 
 export default function RootLayout({

@@ -15,7 +15,7 @@ export default function Home() {
         <main>
             <Card className={"p-10 sm:p-4 h-full "}>
                 <div className="flex w-full sm:flex-col">
-                    <div className={"relative h-full h-[65vh] sm:h-full w-full flex flex-col justify-between "}>
+                    <div className={"relative h-full lg:min-h-[65vh] sm:h-full w-full flex flex-col justify-between "}>
                         <div className={"text-5xl sm:text-3xl max-w-[75%] sm:max-w-[100%] leading-[3.5rem]"}>
                             Успех начинается здесь: <span className={"text-primary-400 font-semibold"}>программный код</span>, созданный
                             для ваших
@@ -46,9 +46,9 @@ export default function Home() {
             </Card>
 
             <div className="sm:px-4">
-            <div className={"mt-16 "}>
+            <div className={"mt-16 "} id="cases">
                 <div className={"text-5xl my-7 flex items-center justify-between"}>
-                    <div>кейсы</div>
+                    <div >кейсы</div>
                     <div className={"flex gap-2"}>
                         <Button><Image src={"/icons/arrow.svg"} alt={"Arrow"} width={30} height={30}
                             className={"rotate-180"} /> </Button>
@@ -60,7 +60,7 @@ export default function Home() {
                 </div> */}
             </div>
 
-            <div className="mt-16">
+            <div className="mt-16" id="partners">
                 <div className="text-5xl my-7 flex items-center justify-between">
                     <div>партнеры</div>
                 </div>
@@ -76,7 +76,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mt-16">
+            <div className="mt-16" id="application">
                 <div className="bg-[#202126] w-full p-7 sm:p-4 rounded-3xl flex sm:flex-col justify-between">
                     <div className="text-5xl max-w-[40%] font-semibold sm:mb-3 sm:text-4xl sm:max-w-[100%]"><span className="text-primary-400">оставьте заявку</span>, чтобы обсудить проект</div>
                     <div className="flex flex-col gap-3 sm:gap-2 w-[50%] sm:w-full">
