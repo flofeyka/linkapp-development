@@ -26,7 +26,7 @@ export default function Partners() {
                 <Button onClick={scrollToNext}  size="sm"><Image src={"/icons/arrow.svg"} alt={"Arrow"} width={30} height={30} /> </Button>
             </div>
         </div>
-            <Slider className="relative flex gap-2" ref={sliderRef} {...SLIDER_DEFAULT_SETTINGS}>
+            <Slider className="relative h-auto" ref={sliderRef} {...SLIDER_DEFAULT_SETTINGS}>
                 {partners.map(partner => <PartnerItem key={partner.id} partner={partner}/>)}
             </Slider>
 
