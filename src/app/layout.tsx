@@ -19,7 +19,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={inter.className}>
                 <ProvidersWrapper>
-                    <div className={"text-white bg-[#111] min-h-screen"}>
+                    <div className={"text-white bg-[#111] min-h-screen pb-10"}>
                         {children}
                     </div>
                 </ProvidersWrapper>

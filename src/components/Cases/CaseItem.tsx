@@ -12,7 +12,6 @@ export default function CaseItem({type, name, description, projectName, link, im
     img: string | undefined;
 }) {
     const [opened, setOpened] = useState<boolean>(false);
-    console.log(`bg-center bg-[url('/cases/${img}')]`)
 
     return <div onClick={() => window.open(link)} className={`bg-center bg-[#222] bg-cover p-3 cursor-pointer w-[95%] sm:w-[95%] ml-2 rounded-[35px] min-h-[55vh] sm:min-h-[50vh] p-5`} onMouseLeave={() => setOpened(false)} onMouseEnter={() => setOpened(true)}>
         {opened ? <div >
