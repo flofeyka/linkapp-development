@@ -1,3 +1,5 @@
+'use client';
+
 import { cases } from "@/constants/cases";
 import { Button } from "@nextui-org/react";
 import Slider from "react-slick";
@@ -24,7 +26,7 @@ export default function Cases() {
             </div>
         </div>
         <Slider  ref={sliderRef} {...SLIDER_DEFAULT_SETTINGS}>
-            {cases.map((item, index) => <CaseItem link={item.link} projectName={item.projectName} description={item.description} key={index} type={item.type} name={item.name} />)}
+            {cases.map((item, index) => <CaseItem img={item.img} link={item.link} projectName={item.projectName} description={item.description} key={index} type={item.type} name={item.name} />)}
         </Slider>
     </div>
 

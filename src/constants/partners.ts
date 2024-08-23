@@ -36,7 +36,7 @@ export const partners = [
             lastName: "Рукавишников"
         },
         img: "mikhailrukavishnikov.jpg",
-        post: "Графический дизайнер & Ambassador",
+        post: "Партнёр & Графический дизайнер",
         link: "https://t.me/LobsterOKss"
     }
 ]
