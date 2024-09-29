@@ -20,17 +20,7 @@ export const partners = [
         link: "https://t.me/kawun_info"
     },
     {
-        id: 3, 
-        name: {
-            firstName: "Вероника",
-            lastName: "Фофанова"
-        },
-        img: "veronikafofanova.jpg",
-        post: "Партнёр & Ambassador",
-        link: "https://t.me/flofeyka_info"
-    }, 
-    {
-        id: 4,
+        id: 3,
         name: {
             firstName: "Михаил",
             lastName: "Рукавишников"
