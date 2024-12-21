@@ -85,9 +85,24 @@ export default function Home() {
               <ApplicationForm />
             </div>
           </div>
-          <div className="flex w-full justify-end mt-3 ">
-            <Card className="p-3 hover:text-primary-400 hover:transition-all">
-              Тюмень
+          <div className="flex w-full justify-between mt-3 ">
+            <div className="flex p-1.5 px-3 bg-[#202126] rounded-2xl">
+              <div className="flex items-center gap-2">
+                <Image
+                  src="/images/linkapp.jpg"
+                  alt="linkapp"
+                  className="rounded-full"
+                  height={50}
+                  width={50}
+                />
+                <span className="font-semibold">
+                  <div>LinkApp</div>
+                  <div>Technologies</div>
+                </span>
+              </div>
+            </div>
+            <Card className="p-3 hover:text-primary-400 hover:transition-all flex items-center">
+              <div className="h-full flex items-center">Тюмень</div>
             </Card>
           </div>
         </div>
