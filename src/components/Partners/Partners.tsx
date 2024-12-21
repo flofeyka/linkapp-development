@@ -29,6 +29,5 @@ export default function Partners() {
             <Slider className="relative h-auto" ref={sliderRef} {...SLIDER_DEFAULT_SETTINGS}>
                 {partners.map(partner => <PartnerItem key={partner.id} partner={partner}/>)}
             </Slider>
-
     </div>
 }

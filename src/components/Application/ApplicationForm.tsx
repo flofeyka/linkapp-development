@@ -10,6 +10,8 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import axios from "axios";
+import Image from "next/image";
+import Link from "next/link";
 import { useForm } from "react-hook-form";
 
 type Application = {
@@ -93,6 +95,33 @@ export default function ApplicationForm() {
       </div>
       <div className="w-[50%] sm:w-full sm:text-xs text-gray-400">
         В чем заключается задача? В какие сроки? Несколько слов о проекте
+      </div>
+
+      <div className="flex gap-2 items-center">
+        <Link href="https://www.instagram.com/linkapp_dev/">
+          <Image
+            src="/icons/instagram.svg"
+            width={45}
+            height={45}
+            alt="instagram"
+          />
+        </Link>
+        <Link href="https://api.whatsapp.com/send/?phone=79953020846&text&type=phone_number&app_absent=0">
+          <Image
+            src="/icons/whatsapp.svg"
+            width={40}
+            height={40}
+            alt="whatsapp"
+          />
+        </Link>
+        <Link href="https://t.me/linkapp_technologies">
+          <Image
+            src="/icons/telegram.svg"
+            width={38}
+            height={38}
+            alt="whatsapp"
+          />
+        </Link>
       </div>
 
       <Select
