@@ -86,7 +86,7 @@ export default function Header() {
                     alt="whatsapp"
                   />
                 </Link>
-                <Link href="https://t.me/linkapp_technologies">
+                <Link href="https://t.me/linkapptech">
                   <Image
                     src="/icons/telegram.svg"
                     width={38}
