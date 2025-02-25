@@ -70,12 +70,12 @@ export default function Header() {
               </Link>
 
               <div className="w-full flex justify-center gap-2">
-                <Link href="https://www.instagram.com/linkapp_dev/">
+                <Link href="https://vk.com/linkapptech">
                   <Image
-                    src="/icons/instagram.svg"
+                    src="/icons/vk.svg"
                     width={45}
                     height={45}
-                    alt="instagram"
+                    alt="vk"
                   />
                 </Link>
                 <Link href="https://api.whatsapp.com/send/?phone=79953020846&text&type=phone_number&app_absent=0">

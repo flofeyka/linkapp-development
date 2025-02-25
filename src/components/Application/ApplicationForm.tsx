@@ -98,12 +98,12 @@ export default function ApplicationForm() {
       </div>
 
       <div className="flex gap-2 items-center">
-        <Link href="https://www.instagram.com/linkapp_dev/">
+        <Link href="https://vk.com/linkapptech">
           <Image
-            src="/icons/instagram.svg"
-            width={45}
-            height={45}
-            alt="instagram"
+            src="/icons/vk.svg"
+            width={40}
+            height={40}
+            alt="vk"
           />
         </Link>
         <Link href="https://api.whatsapp.com/send/?phone=79953020846&text&type=phone_number&app_absent=0">
